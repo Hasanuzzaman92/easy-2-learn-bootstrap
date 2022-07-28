@@ -94,7 +94,7 @@
     <!-- slider section end  -->
 
     <!-- Courses section start  -->
-    <section id="courses" class="container my-5">
+    <section id="courses" class="container">
         <div class=" text-center">
             <h2> Our Popular Courses</h2>
             <p> We have some popular courses that we provide for our students. <br> All the courses details given below</p>
@@ -202,7 +202,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <button class="btn btn-primary">View All</button>
+                    <button class="btn btn-primary my-5">View All</button>
                 </div>
             </div>
 
@@ -244,6 +244,45 @@
     <!-- About us section end -->
 
     <!-- join section start  -->
+    <section id="register" class="container bg-primary p-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+          <div class="text-white join-text">
+            <h1>Ready to Join?</h1>
+            <p>If you ready to join with our courses, please click to Register button for enrollment your choiseable course.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-light register-btn" data-bs-toggle="modal" data-bs-target="#myModal">Register Now</button>
+
+          <div class="modal" id="myModal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Registration Here</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- join section end  -->
 
     </main>

@@ -7,3 +7,29 @@ section{
 #about-us{
     background-color: #F4FAFD;
 }
+
+
+.register-btn{
+    background-color: #fff;
+}
+
+.register-btn:hover{
+    color: #0a58ca;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 992px) {
+
+   .join-text {
+      text-align: center;
+    } 
+
+    .register-btn{
+        justify-content: flex-end;
+    }
+}
+  
